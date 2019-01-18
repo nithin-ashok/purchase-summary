@@ -25,25 +25,25 @@ In order to mock above states of the application and avoid the hardcoding the da
    - validatePromo: Used to validate the promo code entered against the valid promo code and to handle the associated errors.
 
    > fetchPurchaseSummary
-   - PickUp Savings tooltip: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PickUp_Saving_Tooltip.png)
+   - PickUp Savings tooltip: 
      <img src="/src/assets/screenshots/PickUp_Saving_Tooltip.png"/>
-   - SeeItemDetails Expander: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/SeeItemDetails_Expander.png)
+   - SeeItemDetails Expander: 
      <img src="/src/assets/screenshots/SeeItemDetails_Expander.png"/>
-   - ApplyPromoCode Expander: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/ApplyPromoCode_Expander.png)
+   - ApplyPromoCode Expander: 
      <img src="/src/assets/screenshots/ApplyPromoCode_Expander.png"/>
    
    > validatePromo
-   - Before ValidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/Before_ValidPromoCode.png)
+   - Before ValidPromoCode:
      <img src="/src/assets/screenshots/Before_ValidPromoCode.png"/>
-   - During ApplyPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/During_ApplyPromoCode.png)
+   - During ApplyPromoCode: 
      <img src="/src/assets/screenshots/During_ApplyPromoCode.png"/>
-   - After ApplyValidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/After_ApplyValidPromoCode.png)
+   - After ApplyValidPromoCode: 
      <img src="/src/assets/screenshots/After_ApplyValidPromoCode.png"/>
-   - InvalidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/InvalidPromoCode.png)
+   - InvalidPromoCode: 
      <img src="/src/assets/screenshots/InvalidPromoCode.png"/>
-   - PromoCodeAlreadyUsed: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PromoCodeAlreadyUsed.png)
+   - PromoCodeAlreadyUsed: 
      <img src="/src/assets/screenshots/PromoCodeAlreadyUsed.png"/>
-   - PromoCode Applying: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PromoCode_Applying.png)
+   - PromoCode Applying: 
      <img src="/src/assets/screenshots/PromoCode_Applying.png"/>
 
 
