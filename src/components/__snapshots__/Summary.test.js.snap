@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes correctly Summary component 1`] = `
+<div
+  className="center summary"
+/>
+`;

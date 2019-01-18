@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes correctly PromoCode component 1`] = `
+<form
+  className="form-padding"
+  onSubmit={[Function]}
+>
+  <label
+    className="font-darkgrey font-bold font-small"
+    htmlFor="promo"
+  >
+    Promo Code
+  </label>
+  <br />
+  <input
+    className="form-input-text"
+    id="promo"
+    onChange={[Function]}
+    value=""
+  />
+  <input
+    className="form-input-submit"
+    type="submit"
+    value="Apply"
+  />
+</form>
+`;

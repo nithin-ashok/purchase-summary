@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes correctly 1`] = `
+<div>
+  <span
+    className="link glyph-plus"
+    onClick={[Function]}
+  />
+</div>
+`;

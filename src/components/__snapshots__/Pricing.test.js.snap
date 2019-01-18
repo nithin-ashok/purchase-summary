@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes correctly Pricing component 1`] = `
+<table
+  className="table"
+>
+  <tbody>
+    <tr>
+      <td>
+        Subtotal
+      </td>
+      <td
+        className="text-right font-bold"
+      >
+        $102.96
+      </td>
+    </tr>
+    <tr>
+      <td
+        className="savings tooltip"
+      >
+        Pickup savings
+        <span
+          className="tooltiptext"
+        >
+          Picking up your order in the store cut costs, and we pass the savings on to you.
+        </span>
+      </td>
+      <td
+        className="text-right font-bold font-red"
+      >
+        -$3.85
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Est. taxes & Fees
+        <span
+          className="zip"
+        >
+          (Based on 
+          85050
+          )
+        </span>
+      </td>
+      <td
+        className="text-right font-bold"
+      >
+        $8.92
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

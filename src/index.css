@@ -12,3 +12,191 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+td {
+  padding: 5px 0px;
+}
+
+span.zip {
+  display: block;
+}
+
+span.glyph-plus::after{
+  display: inline-block;
+  content: "\002B";
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+span.glyph-minus::after{
+  display: inline-block;
+  content: "\2212";
+  padding: 0 5px;
+  font-size: 22px;
+}
+
+span.line-item {
+  display: block;
+}
+
+span.align-right {
+  float: right;
+}
+
+.chair {
+  width: 90px;
+  height: 90px;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.summary {
+  padding: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px lightgrey;
+}
+
+.hr {
+  border-bottom: 1px solid lightgrey;
+  padding: 5px 0;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+.font-xlarge {
+  font-size: 25px;
+}
+
+.font-small {
+  font-size: 15px;
+}
+
+.font-xsmall {
+  font-size: 13px;
+}
+
+.font-red {
+  color: firebrick;
+}
+
+.font-darkgrey {
+  color: darkgrey;
+  filter: brightness(65%);
+}
+
+.form-padding {
+  padding-top: 8px;
+}
+
+.form-input-text {
+  border: 1px solid lightgrey;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.form-input-submit {
+  font-weight: bolder;
+  font-size: 12px;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.savings {
+  text-decoration: underline;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  text-decoration: none;
+}
+
+.tooltip:hover {
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 12px;
+  border: 1px solid grey;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 1;
+  top: 100%;
+  left: 0;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+
+  .summary {
+    width: 33%;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .summary {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+  .summary {
+    width: 20%;
+  }
+}

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderes correctly ItemDetails component 1`] = `
+<table
+  className="table"
+>
+  <tr>
+    <td>
+      <img
+        className="chair"
+        src="chair.jpg"
+      />
+    </td>
+    <td
+      className="text-right"
+    >
+      <div
+        className="text-left font-small"
+      >
+        <span
+          className="line-item"
+        >
+          Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red
+        </span>
+        <span
+          className="line-item"
+        >
+          <div
+            className="font-xsmall"
+          >
+            <span
+              className="font-bold"
+            >
+               
+              $99.11
+               
+            </span>
+            <span
+              className="align-right"
+            >
+              Qty: 
+              1
+            </span>
+            <span
+              className="line-item text-line-through font-darkgrey font-bold"
+            >
+              $102.96
+            </span>
+          </div>
+        </span>
+      </div>
+    </td>
+  </tr>
+</table>
+`;
