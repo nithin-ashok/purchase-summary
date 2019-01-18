@@ -26,24 +26,40 @@ In order to mock above states of the application and avoid the hardcoding the da
 
    > fetchPurchaseSummary
    - PickUp Savings tooltip: 
+     
      <img src="/src/assets/screenshots/PickUp_Saving_Tooltip.png"/>
+     
    - SeeItemDetails Expander: 
+     
      <img src="/src/assets/screenshots/SeeItemDetails_Expander.png"/>
+     
    - ApplyPromoCode Expander: 
+     
      <img src="/src/assets/screenshots/ApplyPromoCode_Expander.png"/>
    
    > validatePromo
    - Before ValidPromoCode:
+   
      <img src="/src/assets/screenshots/Before_ValidPromoCode.png"/>
+     
    - During ApplyPromoCode: 
+     
      <img src="/src/assets/screenshots/During_ApplyPromoCode.png"/>
+     
    - After ApplyValidPromoCode: 
+     
      <img src="/src/assets/screenshots/After_ApplyValidPromoCode.png"/>
+     
    - InvalidPromoCode: 
+     
      <img src="/src/assets/screenshots/InvalidPromoCode.png"/>
+     
    - PromoCodeAlreadyUsed: 
+     
      <img src="/src/assets/screenshots/PromoCodeAlreadyUsed.png"/>
+     
    - PromoCode Applying: 
+     
      <img src="/src/assets/screenshots/PromoCode_Applying.png"/>
 
 
