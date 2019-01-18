@@ -1,4 +1,4 @@
-##How to run the project:
+## How to run the project:
 
 1. clone the project from my GitHub repo.
 2. yarn install —ignore-engines
@@ -6,7 +6,7 @@
 4. npm run test (to run the unit test cases). 
 
 
-##Purchase Summary App:
+## Purchase Summary App:
 
 > This is Purchase Summary user interface built using React & Redux
 
@@ -18,6 +18,7 @@ Here I have defined 2 Application State.
 	<img src="/src/assets/screenshots/LoadingPage.png"/>
   - Loaded: The below is the screenshot of the app after data loads and updates the redux state tree.
 	![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/LoadUp_Screen.png)
+	<img src="/src/assets/screenshots/LoadUp_Screen.png"/>
 
 In order to mock above states of the application and avoid the hardcoding the data, I have created mock services in the api folder of project, named src/api/getPurchaseSummary.js
    - fetchPurchaseSummary: Used to set the state with PurchaseSummary obtained through mock API
@@ -25,16 +26,25 @@ In order to mock above states of the application and avoid the hardcoding the da
 
    > fetchPurchaseSummary
    - PickUp Savings tooltip: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PickUp_Saving_Tooltip.png)
+     <img src="/src/assets/screenshots/PickUp_Saving_Tooltip.png"/>
    - SeeItemDetails Expander: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/SeeItemDetails_Expander.png)
+     <img src="/src/assets/screenshots/SeeItemDetails_Expander.png"/>
    - ApplyPromoCode Expander: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/ApplyPromoCode_Expander.png)
+     <img src="/src/assets/screenshots/ApplyPromoCode_Expander.png"/>
    
    > validatePromo
    - Before ValidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/Before_ValidPromoCode.png)
+     <img src="/src/assets/screenshots/Before_ValidPromoCode.png"/>
    - During ApplyPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/During_ApplyPromoCode.png)
+     <img src="/src/assets/screenshots/During_ApplyPromoCode.png"/>
    - After ApplyValidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/After_ApplyValidPromoCode.png)
+     <img src="/src/assets/screenshots/After_ApplyValidPromoCode.png"/>
    - InvalidPromoCode: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/InvalidPromoCode.png)
+     <img src="/src/assets/screenshots/InvalidPromoCode.png"/>
    - PromoCodeAlreadyUsed: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PromoCodeAlreadyUsed.png)
+     <img src="/src/assets/screenshots/PromoCodeAlreadyUsed.png"/>
    - PromoCode Applying: ![alt text] (https://github.com/nithin-ashok/purchase-summary/blob/master/src/assets/screenshots/PromoCode_Applying.png)
+     <img src="/src/assets/screenshots/PromoCode_Applying.png"/>
 
 
 Components are broken down into smaller logical components in a reusable way.
